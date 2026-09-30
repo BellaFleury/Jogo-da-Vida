@@ -5,9 +5,12 @@ anterior de acordo com as seguintes regras:
 
 • Reprodução: Um ser vivo nasce numa célula vazia se essa célula vazia tiver exatamente 
 3 seres vivos vizinhos. 
+
 • Sobrevivência: Um ser vivo que tenha 2 ou 3 vizinhos sobrevive para a geração seguinte. 
+
 • Morte por falta de comida: Um ser vivo com 4 ou mais vizinhos morre porque fica sem 
 comida. 
+
 • Morte por solidão: Um ser vivo com 0 ou apenas 1 vizinho morre de solidão.
 A cada geração, as regras devem ser aplicadas para todos os seres vivos ao mesmo tempo 
 (isto é no mesmo passo) para obtermos o próximo passo ou geração. 
@@ -21,6 +24,7 @@ representar um ser vivo) ou um ponto “.” para indicar “vazio” ou “mort
 máximo de 8 células vizinhas (que podem ser representadas pelo caracter “+”).
 Para simplificar, consideraremos que o mundo é plano (pois fica complicado definir que 
 a última célula é vizinha da primeira em um mundo esférico).
+
 O programa deverá implementar as funções e estruturas de dados necessárias para a 
 execução da simulação e para a interface com o usuário. Vamos usar um padrão de projeto de 
 sistemas interativos para construir o programa (padrão MVC). Além disso, o programa deverá 
