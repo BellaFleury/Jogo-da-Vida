@@ -21,3 +21,8 @@ representar um ser vivo) ou um ponto “.” para indicar “vazio” ou “mort
 máximo de 8 células vizinhas (que podem ser representadas pelo caracter “+”).
 Para simplificar, consideraremos que o mundo é plano (pois fica complicado definir que 
 a última célula é vizinha da primeira em um mundo esférico).
+O programa deverá implementar as funções e estruturas de dados necessárias para a 
+execução da simulação e para a interface com o usuário. Vamos usar um padrão de projeto de 
+sistemas interativos para construir o programa (padrão MVC). Além disso, o programa deverá 
+permitir o armazenamento em arquivo das configurações das gerações iniciais para possíveis
+futuras novas execuções.
